@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dr. Rostyslav Prus</title>
+  <meta name="description" content="Dr. Rostyslav Prus, Founder &amp; Director of R.P.V. Holdings Ltd. Strategic investment, capital preservation, and financial education. Based in the Kuala Lumpur area.">
+  <meta name="author" content="Dr. Rostyslav Prus">
+  <link rel="canonical" href="https://rostyslavprus.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Dr. Rostyslav Prus">
+  <meta property="og:description" content="Founder &amp; Director, R.P.V. Holdings Ltd — strategic investment and financial education.">
+  <meta property="og:url" content="https://rostyslavprus.com/">
+  <meta property="og:image" content="https://rostyslavprus.com/images/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="en_GB">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Dr. Rostyslav Prus">
+  <meta name="twitter:description" content="Founder &amp; Director, R.P.V. Holdings Ltd — strategic investment and financial education.">
+  <meta name="twitter:image" content="https://rostyslavprus.com/images/og.jpg">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/favicon.png" type="image/png" sizes="64x64">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --ink: #e8eef6;
+      --muted: #9aa8b8;
+      --navy: #0a1a36;
+      --deep: #06101e;
+      --deeper: #040914;
+      --gold: #c9b07a;
+      --gold-2: #e4d0a0;
+      --line: rgba(201,176,122,.28);
+      --card: rgba(10,26,54,.72);
+      --max: 1120px;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: Outfit, system-ui, sans-serif;
+      font-weight: 400;
+      background: var(--deeper);
+      color: var(--ink);
+      line-height: 1.65;
+      font-size: 17px;
+      -webkit-font-smoothing: antialiased;
+    }
+    img { max-width: 100%; display: block; }
+    a { color: var(--gold-2); text-decoration: none; }
+    a:hover { color: #fff; }
+    .wrap { width: min(var(--max), calc(100% - 48px)); margin: 0 auto; }
+    header {
+      position: sticky; top: 0; z-index: 20;
+      backdrop-filter: blur(16px);
+      background: rgba(4,9,20,.72);
+      border-bottom: 1px solid var(--line);
+    }
+    .nav { display: flex; align-items: center; justify-content: space-between; min-height: 68px; gap: 24px; }
+    .brand { display: flex; align-items: center; gap: 12px; color: var(--ink); letter-spacing: .08em; font-size: 13px; text-transform: uppercase; }
+    .brand img { width: 36px; height: 36px; }
+    .brand span { font-family: "Cormorant Garamond", Georgia, serif; font-size: 18px; letter-spacing: .12em; font-weight: 600; }
+    .nav-links { display: flex; gap: 22px; font-size: 13px; letter-spacing: .08em; text-transform: uppercase; }
+    .nav-links a { color: var(--muted); }
+    .nav-links a:hover { color: var(--gold-2); }
+    .hero {
+      position: relative;
+      overflow: hidden;
+      padding: 72px 0 88px;
+      background:
+        radial-gradient(900px 480px at 80% 20%, rgba(201,176,122,.12), transparent 55%),
+        linear-gradient(180deg, var(--navy) 0%, var(--deep) 70%, var(--deeper) 100%);
+    }
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.05fr .95fr;
+      gap: 64px;
+      align-items: center;
+    }
+    .eyebrow {
+      color: var(--gold);
+      letter-spacing: .22em;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 500;
+      margin-bottom: 18px;
+    }
+    h1, h2, h3 { font-family: "Cormorant Garamond", Georgia, serif; font-weight: 600; letter-spacing: .01em; line-height: 1.15; }
+    h1 { font-size: clamp(42px, 6vw, 72px); margin-bottom: 18px; }
+    h2 { font-size: clamp(32px, 4vw, 46px); margin-bottom: 14px; }
+    h3 { font-size: 26px; color: var(--gold-2); margin-bottom: 10px; }
+    .gold-rule { width: 72px; height: 1px; background: var(--gold); margin: 22px 0; border: 0; }
+    .tagline { font-family: "Cormorant Garamond", Georgia, serif; font-size: clamp(20px, 2.4vw, 28px); font-weight: 500; font-style: italic; color: var(--gold-2); max-width: 28ch; line-height: 1.35; }
+    .place { margin-top: 18px; color: var(--muted); font-size: 14px; letter-spacing: .08em; text-transform: uppercase; }
+    .hero-cta { display: flex; gap: 14px; margin-top: 36px; flex-wrap: wrap; }
+    .btn {
+      display: inline-flex; align-items: center; justify-content: center;
+      padding: 12px 22px; border: 1px solid var(--gold);
+      color: var(--gold-2); font-size: 13px; letter-spacing: .12em; text-transform: uppercase;
+      transition: .2s ease;
+    }
+    .btn.solid { background: var(--gold); color: var(--navy); font-weight: 500; }
+    .btn.solid:hover { background: var(--gold-2); color: var(--navy); }
+    .btn:hover { background: rgba(201,176,122,.12); color: #fff; }
+    .portrait-wrap {
+      position: relative;
+      max-width: min(440px, 100%);
+      margin-left: auto;
+    }
+    .portrait-wrap::before {
+      content: "";
+      position: absolute; inset: 16px -16px -16px 16px;
+      border: 1px solid var(--line);
+      pointer-events: none;
+    }
+    .portrait-wrap img {
+      width: 100%;
+      aspect-ratio: 1;
+      object-fit: cover;
+      object-position: center 15%;
+      box-shadow: 0 30px 80px rgba(0,0,0,.45);
+    }
+    section { padding: 88px 0; }
+    section + section { border-top: 1px solid var(--line); }
+    .lede { color: var(--muted); max-width: 68ch; }
+    .about-grid { display: grid; grid-template-columns: 1fr 1.4fr; gap: 48px; align-items: start; }
+    .about-copy p + p { margin-top: 18px; }
+    .cards { display: grid; grid-template-columns: repeat(2, 1fr); gap: 22px; margin-top: 40px; }
+    .card {
+      background: linear-gradient(180deg, rgba(10,26,54,.9), rgba(6,16,30,.9));
+      border: 1px solid var(--line);
+      padding: 28px 26px 26px;
+      position: relative;
+    }
+    .card::before { content: ""; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, var(--gold), transparent); }
+    .card p { color: var(--muted); font-size: 15.5px; }
+    .card a { color: var(--gold); }
+    .timeline { list-style: none; margin-top: 36px; position: relative; padding-left: 28px; }
+    .timeline::before { content: ""; position: absolute; left: 5px; top: 8px; bottom: 8px; width: 1px; background: var(--line); }
+    .timeline li { position: relative; padding: 0 0 32px 24px; }
+    .timeline li:last-child { padding-bottom: 0; }
+    .timeline li::before {
+      content: ""; position: absolute; left: -26px; top: 8px;
+      width: 9px; height: 9px; border-radius: 50%;
+      background: var(--deep); border: 1px solid var(--gold);
+    }
+    .when { display: block; color: var(--gold); font-size: 12px; letter-spacing: .14em; text-transform: uppercase; margin-bottom: 6px; font-weight: 500; }
+    .photos { display: grid; grid-template-columns: repeat(12, 1fr); gap: 14px; margin-top: 40px; }
+    .photos figure { margin: 0; background: var(--navy); overflow: hidden; border: 1px solid var(--line); }
+    .photos img { width: 100%; height: 280px; object-fit: cover; transition: transform .5s ease; }
+    .photos figure:hover img { transform: scale(1.03); }
+    .photos figcaption { padding: 10px 12px 12px; font-size: 12px; color: var(--muted); letter-spacing: .02em; }
+    .photos figure:nth-child(1) { grid-column: span 4; }
+    .photos figure:nth-child(2) { grid-column: span 4; }
+    .photos figure:nth-child(3) { grid-column: span 4; }
+    .photos figure:nth-child(4) { grid-column: span 6; }
+    .photos figure:nth-child(5) { grid-column: span 6; }
+    .photos figure:nth-child(6) { grid-column: span 5; }
+    .photos figure:nth-child(7) { grid-column: span 7; }
+    .photos figure:nth-child(1) img,
+    .photos figure:nth-child(2) img,
+    .photos figure:nth-child(5) img { object-position: center 20%; }
+    .photos figure:nth-child(6) img { object-position: center 72%; }
+    .contact-box { display: flex; flex-wrap: wrap; gap: 28px 64px; margin-top: 28px; }
+    .contact-box dt { color: var(--gold); font-size: 12px; letter-spacing: .16em; text-transform: uppercase; margin-bottom: 6px; }
+    .contact-box dd { font-size: 18px; }
+    footer {
+      border-top: 1px solid var(--line);
+      padding: 36px 0 48px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .foot { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; align-items: baseline; }
+    html, body { overflow-x: hidden; }
+    .role {
+      font-family: "Cormorant Garamond", Georgia, serif;
+      font-size: clamp(20px, 2.4vw, 28px);
+      font-weight: 600;
+      line-height: 1.3;
+      margin-bottom: 12px;
+    }
+    .role a { color: var(--gold-2); }
+    .role a:hover { color: #fff; }
+    .tagline { max-width: 32ch; }
+    .note { margin-top: 28px; font-size: 13px; color: var(--muted); max-width: 70ch; }
+    @media (max-width: 860px) {
+      .hero-grid, .about-grid, .cards { grid-template-columns: 1fr; }
+      .portrait-wrap { margin: 12px auto 0; max-width: min(360px, 100%); }
+      .portrait-wrap::before { inset: 12px; }
+      .nav-links { display: none; }
+      .photos figure { grid-column: span 12 !important; }
+      .photos img { height: 320px; }
+      section { padding: 64px 0; }
+      .hero { padding: 40px 0 56px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <a class="brand" href="#top">
+        <img src="favicon.svg" width="36" height="36" alt="RP">
+        <span>Rostyslav Prus</span>
+      </a>
+      <nav class="nav-links" aria-label="Page">
+        <a href="#about">About</a>
+        <a href="#work">What I do</a>
+        <a href="#timeline">Timeline</a>
+        <a href="#photographs">Photographs</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <p class="eyebrow">Personal profile</p>
+          <h1>Dr. Rostyslav Prus</h1>
+          <hr class="gold-rule">
+          <p class="role"><a href="https://www.rpvholdings.com" rel="noopener">Founder &amp; Director, R.P.V. Holdings Ltd</a></p>
+          <p class="tagline">Strategic investment, capital preservation, and financial education.</p>
+          <p class="place">Kuala Lumpur · Malaysia</p>
+          <div class="hero-cta">
+            <a class="btn solid" href="#contact">Contact</a>
+            <a class="btn" href="https://www.rpvholdings.com" rel="noopener">R.P.V. Holdings</a>
+          </div>
+        </div>
+        <div class="portrait-wrap">
+          <img src="images/hero.jpg" width="1408" height="1408" alt="Portrait of Dr. Rostyslav Prus">
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="wrap about-grid">
+        <div>
+          <p class="eyebrow">About</p>
+          <h2>A measured approach to capital and enterprise</h2>
+        </div>
+        <div class="about-copy lede">
+          <p>Dr. Rostyslav Prus is an entrepreneur and investor based in the Kuala Lumpur area. Of Ukrainian origin, he currently leads <a href="https://www.rpvholdings.com" rel="noopener">R.P.V. Holdings Ltd</a> as his principal company, at the intersection of strategic investment, capital preservation, and financial education.</p>
+          <p>As Founder &amp; Director of R.P.V. Holdings Ltd, a Labuan holding company established in 2026, he focuses on strategic investments and the long-term preservation of capital. His earlier career was in investment banking and capital markets in Labuan, Malaysia. He holds a Doctor of Philosophy (PhD) from the Swiss School of Management (2021) and a Doctor of Philosophy in Business Administration from City University Malaysia (2026).</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="work">
+      <div class="wrap">
+        <p class="eyebrow">Focus</p>
+        <h2>What I do</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Investments &amp; holdings</h3>
+            <p>Through <a href="https://www.rpvholdings.com" rel="noopener">R.P.V. Holdings Ltd</a> (Labuan, Malaysia), his principal company, he oversees a private holding company created for strategic investments and the long-term preservation of capital. This site is a personal profile and is not an invitation to invest.</p>
+          </article>
+          <article class="card">
+            <h3>Investment banking &amp; capital markets</h3>
+            <p>He previously served as Managing Director of RM Investment Bank Ltd (April 2021 – April 2026) and as Executive Managing Director of RoboMarkets Asia Ltd (May 2019 – 2023). He is a co-founder and former Deputy Chairman of the Labuan Investment Banks Association (LIBA), until 2026.</p>
+          </article>
+          <article class="card">
+            <h3>Financial education &amp; RPV Markets</h3>
+            <p><a href="https://rpv.markets" rel="noopener">RPV Markets</a> is being prepared as a platform for trading rebates and a financial education academy.</p>
+          </article>
+          <article class="card">
+            <h3>Professional forums</h3>
+            <p>He takes part in professional gatherings on investment and entrepreneurship, including Megacampus Summit Dubai in November 2026, and spoke at Digital Finance Asia in Kuala Lumpur in November 2025.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="timeline">
+      <div class="wrap">
+        <p class="eyebrow">Path</p>
+        <h2>Timeline</h2>
+        <ol class="timeline">
+          <li>
+            <span class="when">2003 – 2007</span>
+            Master’s degree in Economics and Management / Business Administration, Interregional Academy of Personnel Management (IAPM).
+          </li>
+          <li>
+            <span class="when">February 2018 – June 2021</span>
+            Doctor of Philosophy (PhD), Swiss School of Management, Bellinzona, Switzerland. Thesis: “Factors that Effect on the Behavioral Intention to Use of E-Commerce Services in Malaysia.” Degree awarded 5 June 2021.
+          </li>
+          <li>
+            <span class="when">May 2019 – 2023</span>
+            Executive Managing Director, RoboMarkets Asia Ltd, Labuan.
+          </li>
+          <li>
+            <span class="when">April 2021 – April 2026</span>
+            Managing Director, RM Investment Bank Ltd, Labuan.
+          </li>
+          <li>
+            <span class="when">Until 2026</span>
+            Co-founder and former Deputy Chairman, Labuan Investment Banks Association (LIBA).
+          </li>
+          <li>
+            <span class="when">September 2023 – October 2026</span>
+            Doctor of Philosophy (Business Administration), City University Malaysia. Thesis: “Digital Marketing Efficiency Technologies and Online Investment Behaviour.” Viva voce, June 2026; degree conferred by the Senate on 1 October 2026; Hooding Ceremony, 29 October 2026; 29th Convocation, 31 October 2026.
+          </li>
+          <li>
+            <span class="when">November 2025</span>
+            Speaker at Digital Finance Asia, Kuala Lumpur.
+          </li>
+          <li>
+            <span class="when">May 2026 – present</span>
+            Founder &amp; Director, <a href="https://www.rpvholdings.com" rel="noopener">R.P.V. Holdings Ltd</a> (Labuan, Malaysia).
+          </li>
+          <li>
+            <span class="when">November 2026</span>
+            Attended Megacampus Summit Dubai.
+          </li>
+          <li>
+            <span class="when">Upcoming</span>
+            RPV Markets (<a href="https://rpv.markets" rel="noopener">rpv.markets</a>): trading rebates and a financial education academy.
+          </li>
+        </ol>
+        <p class="note">This page is a personal presentation. It makes no claim of licensing or regulation and does not report investment performance.</p>
+      </div>
+    </section>
+
+    <section id="photographs">
+      <div class="wrap">
+        <p class="eyebrow">Selected photographs</p>
+        <h2>Recent moments</h2>
+        <p class="lede">From the City University Malaysia ceremonies in late October 2026 and Megacampus Summit Dubai in November 2026.</p>
+        <div class="photos">
+          <figure>
+            <img src="images/gallery-01-hooding.jpg" width="960" height="1280" alt="Hooding ceremony at City University Malaysia">
+            <figcaption>City University Malaysia, Hooding Ceremony, 29 October 2026</figcaption>
+          </figure>
+          <figure>
+            <img src="images/gallery-02-convocation.jpg" width="810" height="1080" alt="On the convocation stage holding a certificate">
+            <figcaption>Convocation ceremony, City University Malaysia, 31 October 2026</figcaption>
+          </figure>
+          <figure>
+            <img src="images/gallery-03-library.jpg" width="1448" height="1086" alt="Formal group in academic dress in a library">
+            <figcaption>After the ceremony, 2026</figcaption>
+          </figure>
+          <figure>
+            <img src="images/gallery-04-megacampus-gala.jpg" width="1600" height="1200" alt="At the Megacampus Summit Dubai gala">
+            <figcaption>Megacampus Summit Dubai, November 2026</figcaption>
+          </figure>
+          <figure>
+            <img src="images/gallery-05-chess-arts.jpg" width="1200" height="1600" alt="At a Megacampus formal event">
+            <figcaption>Megacampus Summit Dubai, November 2026</figcaption>
+          </figure>
+          <figure>
+            <img src="images/gallery-06-session.jpg" width="900" height="1600" alt="In conversation at a Megacampus session">
+            <figcaption>Megacampus Summit Dubai, November 2026</figcaption>
+          </figure>
+          <figure>
+            <img src="images/gallery-07-conference.jpg" width="1600" height="1200" alt="At a Megacampus conference session">
+            <figcaption>Megacampus Summit Dubai, November 2026</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="wrap">
+        <p class="eyebrow">Get in touch</p>
+        <h2>Contact</h2>
+        <dl class="contact-box">
+          <div>
+            <dt>Email</dt>
+            <dd><a href="mailto:rp@rostyslavprus.com">rp@rostyslavprus.com</a></dd>
+          </div>
+          <div>
+            <dt>LinkedIn</dt>
+            <dd><a href="https://www.linkedin.com/in/rostyslav-prus-8437008a" rel="noopener noreferrer">linkedin.com/in/rostyslav-prus-8437008a</a></dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap foot">
+      <p>© 2026 Dr. Rostyslav Prus. All rights reserved.</p>
+      <p><a href="https://www.rpvholdings.com" rel="noopener">R.P.V. Holdings Ltd</a> is a private holding company. This site is not an invitation to invest.</p>
+    </div>
+  </footer>
+</body>
+</html>
